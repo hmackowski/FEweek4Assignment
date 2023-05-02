@@ -176,3 +176,26 @@ function pipeOffsetCalc(distanceBetweenBothCenters, pipeSize){
 
 console.log(pipeOffsetCalc(16, 2));
 console.log(pipeOffsetCalc(16, 5));
+
+//------------------------------------------------Test---------------------
+
+const customers = [
+    {
+        name: 'Sam',
+        address: {
+            street: '1234 W Bell Rd',
+            city: 'Phoenix',
+            zip: '85308',
+            state: 'AZ'
+        },
+        membershipLevel: 'GOLD',
+        age: 32
+    },
+   //more customer objects with the same schema
+];
+
+let customer = customers[0];
+
+if ( customer.address.street !== undefined){
+    console.log('street field has a value');
+}
