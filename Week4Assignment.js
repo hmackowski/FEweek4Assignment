@@ -48,7 +48,7 @@ for ( let i = 0; i <= ages.length - 1; i++){
  console.log(newString);
 
  // Assignment 3
- console.log('\nAssignment 4:');
+ console.log('\nAssignment 3:');
 
  console.log('3.	How do you access the last element of any array? \narray.length - 1');
 
